@@ -98,3 +98,4 @@ console.log(hoursFor60)
 let hoursFor70 = distance/70
 console.log(hoursFor70)
 //Above are the hours it would take to travel the distance//
+console.log("It makes the most sense to go 70 since it only takes " + hoursFor70 + " hours to arrive")
