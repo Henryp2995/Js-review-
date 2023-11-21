@@ -91,3 +91,10 @@ console.log(budgetFor60)
 let budgetfor70 = gallonsForSeventy * fuel <= budget
 console.log(budgetfor70)
 // the budget is enough for all except if youre going 70//
+let hoursFor55 = (distance/55)
+console.log(hoursFor55)
+let hoursFor60 = distance/60
+console.log(hoursFor60)
+let hoursFor70 = distance/70
+console.log(hoursFor70)
+//Above are the hours it would take to travel the distance//
