@@ -59,3 +59,10 @@ console.log(divByFive)
 //Statment above is true so all are divisible by 5//
 const Greater = (n1 > n4) 
 console.log(Greater)
+const n5 = (n1 - n2)
+console.log(n5)
+const n6 = (n5/n3)
+console.log(n6)
+const n7 = (n6%n4)
+console.log(n7)
+//Followed all steps now going to combine into a cleaner function//
