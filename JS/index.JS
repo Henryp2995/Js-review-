@@ -68,3 +68,26 @@ console.log(n6)
 const n7 = (n6%n4)
 console.log(n7)
 //Followed all steps now going to combine into a cleaner function//
+//Couldnt figure it out//
+const distance = 1500
+const budget = 175
+const fuel = 3
+
+let fifty5 = 30
+let sixty = 28
+let seventy = 23
+//Gallons needed//
+let Gallonsfor55 = (distance/fifty5)
+console.log(Gallonsfor55)
+let gallonsForSixty = (distance/sixty)
+console.log(gallonsForSixty)
+let gallonsForSeventy = (distance/seventy)
+console.log(gallonsForSeventy)
+//Will my budget cover it//
+let budgetFor55 = Gallonsfor55 * fuel <= budget
+console.log(budgetFor55)
+let budgetFor60 = gallonsForSixty * fuel <= budget
+console.log(budgetFor60)
+let budgetfor70 = gallonsForSeventy * fuel <= budget
+console.log(budgetfor70)
+// the budget is enough for all except if youre going 70//
